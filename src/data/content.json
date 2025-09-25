@@ -1,0 +1,109 @@
+{
+    "categories": [
+        {
+            "title": "Indoor Plants",
+            "data": [
+                {
+                    "title": "indo1",
+                    "description": "Explore Now",
+                    "image": "/images/indo1.jpg"
+                },
+                {
+                    "title": "indo2",
+                    "description": "Explore Now",
+                    "image": "/images/indo2.jpg"
+                },
+                {
+                    "title": "indo3",
+                    "description": "Explore Now",
+                    "image": "/images/indo3.jpg"
+                },
+                {
+                    "title": "indo4",
+                    "description": "Explore Now",
+                    "image": "/images/indo4.jpg"
+                },
+                {
+                    "title": "indo5",
+                    "description": "Explore Now",
+                    "image": "/images/indo5.jpg"
+                },
+                {
+                    "title": "indo6",
+                    "description": "Explore Now",
+                    "image": "/images/indo6.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Outdoor Plants",
+            "data": [
+                {
+                    "title": "outdo1",
+                    "description": "Explore Now",
+                    "image": "/images/outdo1.jpg"
+                },
+                {
+                    "title": "outdo2",
+                    "description": "Explore Now",
+                    "image": "/images/outdo2.jpg"
+                },
+                {
+                    "title": "outdo3",
+                    "description": "Explore Now",
+                    "image": "/images/outdo3.jpg"
+                },
+                {
+                    "title": "outdo4",
+                    "description": "Explore Now",
+                    "image": "/images/outdo4.jpg"
+                },
+                {
+                    "title": "outdo5",
+                    "description": "Explore Now",
+                    "image": "/images/outdo5.jpg"
+                },
+                {
+                    "title": "outdo6",
+                    "description": "Explore Now",
+                    "image": "/images/outdo6.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Flowering Bonsai",
+            "data": [
+                {
+                    "title": "flower1",
+                    "description": "Explore Now",
+                    "image": "/images/flower1.jpg"
+                },
+                {
+                    "title": "flower2",
+                    "description": "Explore Now",
+                    "image": "/images/flower3.jpg"
+                },
+                {
+                    "title": "flower3",
+                    "description": "Explore Now",
+                    "image": "/images/flower3.jpg"
+                },
+                {
+                    "title": "flower4",
+                    "description": "Explore Now",
+                    "image": "/images/flower4.jpg"
+                },
+                {
+                    "title": "flower5",
+                    "description": "Explore Now",
+                    "image": "/images/flower5.jpg"
+                },
+                {
+                    "title": "flower6",
+                    "description": "Explore Now",
+                    "image": "/images/flower6.jpg"
+                }
+            ]
+        }
+    ]
+}
