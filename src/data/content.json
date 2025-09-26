@@ -11,12 +11,12 @@
                 {
                     "title": "indo2",
                     "description": "Explore Now",
-                    "image": "/images/indo2.jpg"
+                    "image": "/images/indo2v.jpg"
                 },
                 {
                     "title": "indo3",
                     "description": "Explore Now",
-                    "image": "/images/indo3.jpg"
+                    "image": "/images/indo3v.jpg"
                 },
                 {
                     "title": "indo4",
@@ -26,7 +26,7 @@
                 {
                     "title": "indo5",
                     "description": "Explore Now",
-                    "image": "/images/indo5.jpg"
+                    "image": "/images/indo5v.jpg"
                 },
                 {
                     "title": "indo6",
@@ -81,7 +81,7 @@
                 {
                     "title": "flower2",
                     "description": "Explore Now",
-                    "image": "/images/flower3.jpg"
+                    "image": "/images/flower2.jpg"
                 },
                 {
                     "title": "flower3",
@@ -105,5 +105,69 @@
                 }
             ]
         }
-    ]
+    ],
+    "footer": {
+        "items": [
+            {
+                "title": "Need help",
+                "list": [
+                    {
+                        "label": "Contact Us",
+                        "path": "/contact-us"
+                    },
+                    {
+                        "label": "Track Oder",
+                        "path": "/track-oder"
+                    },
+                    {
+                        "label": "Return & Refunds",
+                        "path": "/refunds"
+                    },
+                    {
+                        "label": "FAQ's",
+                        "path": "/faq"
+                    },
+                    {
+                        "label": "Career",
+                        "path": "/career"
+                    }
+                ]
+            },
+            {
+                "title": "Company",
+                "list": [
+                    {
+                        "label": "About Us",
+                        "path": "/about-us"
+                    },
+                    {
+                        "label": "Media",
+                        "path": "/media"
+                    }
+                ]
+            },
+            {
+                "title": "More Info",
+                "list": [
+                    {
+                        "label": "Term and Conditions",
+                        "path": "/term-conditions"
+                    },
+                    {
+                        "label": "Privacy Policy",
+                        "path": "/policies"
+                    },
+                    {
+                        "label": "Shipping Policy",
+                        "path": "/policies"
+                    }
+                ]
+            },
+            {
+                "title": "Location",
+                "description": ""
+            }
+        ],
+        "copyright": "@SPCCPS"
+    }
 }
