@@ -1,38 +1,38 @@
 import React from "react";
 import SectionHeading from "./SectionHeading/SectionHeading";
 import Card from "../Card/Card";
-import new1 from "../../assets/image/new1.jpg"
-import new2 from "../../assets/image/new2.jpg"
-import new3 from "../../assets/image/new3.jpg"
-import new4 from "../../assets/image/new4.jpg"
-import new5 from "../../assets/image/new5.jpg"
-import new6 from "../../assets/image/new6.jpg"
+import Jeans from '../../assets/image/jeans.jpg'
+import Shirts from '../../assets/image/shirts.jpg'
+import Tshirt from '../../assets/image/tshirts.jpeg'
+import dresses from '../../assets/image/dresses.jpg'
+import Joggers from '../../assets/image/joggers.jpg'
+import Kurtis from '../../assets/image/kurtis.jpg'
 import Carousel from 'react-multi-carousel'
 // import 'react-multi-carousel/lib/styles.css';
 import { responsive } from "../../utils/Section.constants";
 import './NewArrivals.css'
 
 const items = [{
-    'title': 'v1',
-    imagePath: new1
+    'title': 'Dresses',
+    imagePath: dresses
 }, {
-    'title': 'v2',
-    imagePath: new2
+    'title': 'Shirts',
+    imagePath: Shirts
 }, {
-    'title': 'v3',
-    imagePath: new3
+    'title': 'T-Shirts',
+    imagePath: Tshirt
 }, {
-    'title': 'v4',
-    imagePath: new4
-}, {
-    'title': 'v5',
-    imagePath: new5
-}, {
-    'title': 'v6',
-    imagePath: new6
-}
-
-]
+    'title': 'Kurtis',
+    imagePath: Kurtis
+},
+{
+    'title': 'Joggers',
+    imagePath: Joggers
+},
+{
+    'title': 'Jeans',
+    imagePath: Jeans
+}];
 
 const NewArrivals = () => {
     return (

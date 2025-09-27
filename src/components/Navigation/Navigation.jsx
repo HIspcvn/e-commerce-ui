@@ -9,19 +9,18 @@ const Navigation = () => {
         <nav className="sticky top-0 z-50 bg-white shadow-md flex items-center py-6 px-8 justify-between">
             <div className="flex items-center">
                 {/* Logo icon */}
-                <img src={logo} alt="Logo" className="h-10 w-10 object-contain" />
+                {/* <img src={logo} alt="Logo" className="h-10 w-10 object-contain" /> */}
                 {/* Logo */}
-                <a className="text-3xl text-black font-bold gap-8" href="/">GreenShop</a>
+                <a className="text-3xl text-black font-bold gap-8" href="/">Shoppeee</a>
 
             </div>
             <div className="flex flex-wrap items-center gap-10">
                 {/* Nav item */}
                 <ul className="flex gap-10">
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Indoor Plants</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Outdoor Plants</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Flowering Bonsai</a></li>
-                    {/* <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Mini Bonsai</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Accessories</a></li> */}
+                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Shop</a></li>
+                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Men</a></li>
+                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Women</a></li>
+                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Kids</a></li>
                 </ul>
             </div>
             <div className="flex justify-center">
