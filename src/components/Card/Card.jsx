@@ -16,7 +16,6 @@ const Card = ({ imagePath, title, description, actionArrow, height, width }) => 
                 {actionArrow && <span className="cursor-pointer pr-2  items-center"><ArrowIcon /></span>}
             </div>
         </div>
-        // h-[${height ? height : '260px'}] w-[${width ? width : '240px'}]
     )
 }
 

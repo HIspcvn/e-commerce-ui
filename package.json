@@ -1,5 +1,5 @@
 {
-  "name": "bonsaishop-ui",
+  "name": "e-commerce-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-multi-carousel": "^2.8.6",
+    "react-router-dom": "^7.9.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

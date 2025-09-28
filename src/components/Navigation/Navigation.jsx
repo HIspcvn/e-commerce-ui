@@ -3,6 +3,8 @@ import { Wishlist } from "../common/Withlist";
 import { AccountIcon } from "../common/AccountIcon";
 import { CartIcon } from "../common/CartIcon";
 import logo from "../../assets/image/logoimg.png"
+import { NavLink } from "react-router-dom";
+import './Navigation.css'
 
 const Navigation = () => {
     return (
@@ -16,11 +18,11 @@ const Navigation = () => {
             </div>
             <div className="flex flex-wrap items-center gap-10">
                 {/* Nav item */}
-                <ul className="flex gap-10">
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Shop</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Men</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Women</a></li>
-                    <li className="text-gray-600 hover:text-black hover:underline transition duration-300"><a href="/">Kids</a></li>
+                <ul className="flex gap-14 text-gray-600 hover:text-black">
+                    <li><NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} hover:underline transition duration-300`} to="/">Shop</NavLink></li>
+                    <li><NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} hover:underline transition duration-300`} to="/men">Men</NavLink></li>
+                    <li><NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} hover:underline transition duration-300`} to="/women">Women</NavLink></li>
+                    <li><NavLink className={({ isActive }) => `${isActive ? 'active-link' : ''} hover:underline transition duration-300`} to="/kids">Kids</NavLink></li>
                 </ul>
             </div>
             <div className="flex justify-center">
