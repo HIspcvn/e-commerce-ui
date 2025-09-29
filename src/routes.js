@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/kids",
-                element: <ProductListPage categoryType={'KID'} />
+                element: <ProductListPage categoryType={'KIDS'} />
             }
         ]
     },

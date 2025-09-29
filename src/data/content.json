@@ -185,47 +185,47 @@
             "description": "Women's Clothing",
             "types": [
                 {
-                    "type_id": 5,
+                    "id": 5,
                     "code": "DRESSES",
                     "name": "Dresses"
                 },
                 {
-                    "type_id": 6,
+                    "id": 6,
                     "code": "CROPTOP",
                     "name": "Crop Top"
                 },
                 {
-                    "type_id": 7,
+                    "id": 7,
                     "code": "SHORTS",
                     "name": "Shorts"
                 },
                 {
-                    "type_id": 8,
+                    "id": 8,
                     "code": "JEANS",
                     "name": "Jeans"
                 },
                 {
-                    "type_id": 9,
+                    "id": 9,
                     "code": "TSHIRTS",
                     "name": "T-shirt"
                 },
                 {
-                    "type_id": 10,
+                    "id": 10,
                     "code": "SWEATSHIRT",
                     "name": "Hoodie/Sweatshirt"
                 },
                 {
-                    "type_id": 11,
+                    "id": 11,
                     "code": "TOPS",
                     "name": "Tops"
                 },
                 {
-                    "type_id": 12,
+                    "id": 12,
                     "code": "BOXERS",
                     "name": "Boxers"
                 },
                 {
-                    "type_id": 13,
+                    "id": 13,
                     "code": "KURTIS",
                     "name": "Kurtis"
                 }
