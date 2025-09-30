@@ -4,6 +4,8 @@ import content from '../../data/content.json'
 import Categories from "../../components/Filters/Categories";
 import PriceFilter from "../../components/Filters/PriceFilter";
 import ColorsFilter from "../../components/Filters/ColorsFilter";
+import SizeFilter from "../../components/Filters/SizeFilter";
+import ProductCard from "./ProductCard";
 
 const categories = content.categories;
 
@@ -13,6 +15,10 @@ const ProductListPage = ({ categoryType }) => {
     const categoriesContent = useMemo(() => {
         return (categories.find((category) => category.code === categoryType))
     }, [categoryType])
+
+    const productListItem = useMemo(() => {
+        return (content.products.filter(product => product.category_id === categoriesContent.id))
+    }, [categoriesContent])
 
     return (
         <div>
@@ -42,11 +48,22 @@ const ProductListPage = ({ categoryType }) => {
                         <ColorsFilter colors={categoriesContent.meta_data?.colors || []} />
                         <hr />
                     </div>
+                    {/* Size Filter  */}
+                    <div>
+                        <SizeFilter sizes={categoriesContent.meta_data?.sizes || []} />
+                        <hr />
+                    </div>
                 </div>
 
+
+                {/* Product  */}
                 <div className="p-[15px]">
-                    {/* Product  */}
                     <p className="text-black text-lg">{categoriesContent.description}</p>
+                    <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 md:grid-col-2 gap-8 px-2">
+                        {productListItem.map((item, index) => (
+                            <ProductCard key={index} {...item} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
