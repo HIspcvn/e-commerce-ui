@@ -287,30 +287,27 @@
     ],
     "products": [
         {
-            "id": 1,
-            "title": "Black Sweatshirt",
-            "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
+            "id": 5,
+            "title": "White Graphic Crop Top",
+            "description": "A trendy white graphic crop top for women",
             "category_id": 2,
-            "type_id": 10,
-            "brand": "Nike",
-            "price": 49.99,
+            "type_id": 9,
+            "brand": "TrendyWear",
+            "price": 39.99,
             "size": [
                 "S",
                 "M",
                 "L"
             ],
             "color": [
-                "Black",
-                "Blue"
+                "White"
             ],
-            "discount": 20,
-            "thumbnail": "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
+            "discount": 10,
             "images": [
-                "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
-                "https://codedev.b-cdn.net/products/woman-black-shirt-giving-neutral-flirtatious-poses.jpg",
-                "https://codedev.b-cdn.net/products/woman-holding-coffee-cup-smiling.jpg"
+                "./images/White Graphic Crop Top-2.webp"
             ],
-            "rating": 4.5
+            "thumbnail": "./images/White Graphic Crop Top.webp",
+            "rating": 4.3
         },
         {
             "id": 2,
@@ -329,11 +326,8 @@
                 "White"
             ],
             "discount": 15,
-            "images": [
-                "https://codedev.b-cdn.net/products/tshirt-white.jpg",
-                "https://codedev.b-cdn.net/products/tshirt-white.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/tshirt-white.jpg",
+            "images": [],
+            "thumbnail": "./images/White T-shirt.webp",
             "rating": 4.5
         },
         {
@@ -354,10 +348,10 @@
             ],
             "discount": 10,
             "images": [
-                "hoodie-purple1.jpg",
-                "hoodie-purple2.jpg"
+                "./images/Purple Hoodie-2.webp",
+                "./images/Purple Hoodie-3.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/hoodie-purple.jpg",
+            "thumbnail": "./images/Purple Hoodie.webp",
             "rating": 4.6
         },
         {
@@ -378,35 +372,35 @@
             ],
             "discount": 5,
             "images": [
-                "dress-white-leaves1.jpg",
-                "dress-white-leaves2.jpg"
+                "./images/Leaves Pattern White Dress.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/dress-white-leaves.jpg",
+            "thumbnail": "./images/Leaves Pattern White Dress-2.webp",
             "rating": 4.7
         },
         {
-            "id": 5,
-            "title": "White Graphic Crop Top",
-            "description": "A trendy white graphic crop top for women",
+            "id": 1,
+            "title": "Black Sweatshirt",
+            "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
             "category_id": 2,
-            "type_id": 9,
-            "brand": "TrendyWear",
-            "price": 39.99,
+            "type_id": 10,
+            "brand": "Nike",
+            "price": 49.99,
             "size": [
                 "S",
                 "M",
                 "L"
             ],
             "color": [
-                "White"
+                "Black",
+                "Blue"
             ],
-            "discount": 10,
+            "discount": 20,
+            "thumbnail": "./images/Black Sweatshirt.webp",
             "images": [
-                "crop-top-white1.jpg",
-                "crop-top-white2.jpg"
+                "./images/Black Sweatshirt-2.webp",
+                "./images/Black Sweatshirt-3.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-white.jpeg",
-            "rating": 4.3
+            "rating": 4.5
         },
         {
             "id": 6,
@@ -426,10 +420,10 @@
             ],
             "discount": 15,
             "images": [
-                "shorts-black1.jpg",
-                "shorts-black2.jpg"
+                "./images/Black Shorts-2.webp",
+                "./images/Black Shorts-3.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/shorts-black.jpeg",
+            "thumbnail": "./images/Black Shorts.webp",
             "rating": 4.5
         },
         {
@@ -450,10 +444,9 @@
             ],
             "discount": 10,
             "images": [
-                "jeans-blue1.jpg",
-                "jeans-blue2.jpg"
+                "./images/Women's Skinny Jeans-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/jeans-blue.jpeg",
+            "thumbnail": "./images/Women's Skinny Jeans.webp",
             "rating": 4.8
         },
         {
@@ -474,10 +467,9 @@
             ],
             "discount": 10,
             "images": [
-                "sweatshirt-gray1.jpg",
-                "sweatshirt-gray2.jpg"
+                "./images/Crewneck Sweatshirt-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/sweatshirt-crewneck.jpeg",
+            "thumbnail": "./images/Crewneck Sweatshirt.webp",
             "rating": 4.6
         },
         {
@@ -498,10 +490,9 @@
             ],
             "discount": 15,
             "images": [
-                "shorts-denim1.jpg",
-                "shorts-denim2.jpg"
+                "./images/Denim Shorts-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/shorts-denim.jpeg",
+            "thumbnail": "./images/Denim Shorts.webp",
             "rating": 4.7
         },
         {
@@ -521,11 +512,8 @@
                 "Black"
             ],
             "discount": 10,
-            "images": [
-                "tshirt-black1.jpg",
-                "tshirt-black2.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/tshirt-black.jpg",
+            "images": [],
+            "thumbnail": "./images/Black Plain T-shirt.webp",
             "rating": 4.5
         },
         {
@@ -545,11 +533,8 @@
                 "Blue"
             ],
             "discount": 15,
-            "images": [
-                "crop-top-blue-flower1.jpg",
-                "crop-top-blue-flower2.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-blue-flower.jpeg",
+            "images": [],
+            "thumbnail": "./images/Blue Flower Print Crop Top.webp",
             "rating": 4.3
         },
         {
@@ -570,10 +555,9 @@
             ],
             "discount": 10,
             "images": [
-                "crop-top-black1.jpg",
-                "crop-top-black2.jpg"
+                "./images/Black Crop Top-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-black.jpeg",
+            "thumbnail": "./images/Black Crop Top.webp",
             "rating": 4.2
         },
         {
@@ -594,35 +578,32 @@
             ],
             "discount": 10,
             "images": [
-                "black-tshirt1.jpg",
-                "black-tshirt2.jpg"
+                "./images/Black T-Shirt-3.webp",
+                "./images/Black T-Shirt-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/black-tshirt.jpeg",
+            "thumbnail": "./images/Black T-Shirt.webp",
             "rating": 4.5
         },
         {
-            "id": 14,
-            "title": "White Hoodie",
-            "description": "Comfortable white hoodie for men",
+            "id": 16,
+            "title": "Red Heart Shorts",
+            "description": "Comfortable Heart shorts for men",
             "category_id": 1,
-            "type_id": 14,
-            "brand": "Adidas",
-            "price": 59.99,
+            "type_id": 3,
+            "brand": "Puma",
+            "price": 29.99,
             "size": [
                 "M",
                 "L",
                 "XL"
             ],
             "color": [
-                "White"
+                "Gray"
             ],
-            "discount": 15,
-            "images": [
-                "white-hoodie1.jpg",
-                "white-hoodie2.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/white-hoodie.jpeg",
-            "rating": 4.7
+            "discount": 10,
+            "images": [],
+            "thumbnail": "./images/Red Heart Shorts.webp",
+            "rating": 4.4
         },
         {
             "id": 15,
@@ -642,35 +623,31 @@
             ],
             "discount": 20,
             "images": [
-                "blue-jeans1.jpg",
-                "blue-jeans2.jpg"
+                "./images/Blue Jeans-2.webp"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/blue-jeans.jpg",
+            "thumbnail": "./images/Blue Jeans.webp",
             "rating": 4.6
         },
         {
-            "id": 16,
-            "title": "Gray Shorts",
-            "description": "Comfortable gray shorts for men",
+            "id": 14,
+            "title": "White Hoodie",
+            "description": "Comfortable white hoodie for men",
             "category_id": 1,
-            "type_id": 3,
-            "brand": "Puma",
-            "price": 29.99,
+            "type_id": 14,
+            "brand": "Adidas",
+            "price": 59.99,
             "size": [
                 "M",
                 "L",
                 "XL"
             ],
             "color": [
-                "Gray"
+                "White"
             ],
-            "discount": 10,
-            "images": [
-                "gray-shorts1.jpg",
-                "gray-shorts2.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/gray-shorts.jpg",
-            "rating": 4.4
+            "discount": 15,
+            "images": [],
+            "thumbnail": "./images/White Hoodie.webp",
+            "rating": 4.7
         },
         {
             "id": 17,
@@ -689,11 +666,8 @@
                 "Black"
             ],
             "discount": 15,
-            "images": [
-                "black-hoodie1.jpg",
-                "black-hoodie2.jpg"
-            ],
-            "thumbnail": "https://codedev.b-cdn.net/products/black-hoodie.jpeg",
+            "images": [],
+            "thumbnail": "./images/Black Hoodie.webp",
             "rating": 4.8
         }
     ]

@@ -1,9 +1,9 @@
 import React from "react";
-import HeroImg from '../../assets/image/heroimg.png';
+import HeroImg from '../../assets/image/hero-img.png';
 
 const HeroSection = () => {
     return (
-        <div className="relative flex items-center bg-cover bg-center justify-start text-left h-[85vh] w-full" style={{
+        <div className="relative flex items-center bg-cover bg-center justify-start text-left h-[86vh] w-full" style={{
             backgroundImage
                 : `url(${HeroImg})`
         }}>
