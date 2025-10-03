@@ -304,9 +304,10 @@
             ],
             "discount": 10,
             "images": [
-                "./images/White Graphic Crop Top-2.webp"
+                "/images/White Graphic Crop Top.webp",
+                "/images/White Graphic Crop Top-2.webp"
             ],
-            "thumbnail": "./images/White Graphic Crop Top.webp",
+            "thumbnail": "/images/White Graphic Crop Top.webp",
             "rating": 4.3
         },
         {
@@ -327,7 +328,7 @@
             ],
             "discount": 15,
             "images": [],
-            "thumbnail": "./images/White T-shirt.webp",
+            "thumbnail": "/images/White T-shirt.webp",
             "rating": 4.5
         },
         {
@@ -348,10 +349,10 @@
             ],
             "discount": 10,
             "images": [
-                "./images/Purple Hoodie-2.webp",
-                "./images/Purple Hoodie-3.webp"
+                "/images/Purple Hoodie-2.webp",
+                "/images/Purple Hoodie-3.webp"
             ],
-            "thumbnail": "./images/Purple Hoodie.webp",
+            "thumbnail": "/images/Purple Hoodie.webp",
             "rating": 4.6
         },
         {
@@ -372,9 +373,9 @@
             ],
             "discount": 5,
             "images": [
-                "./images/Leaves Pattern White Dress.webp"
+                "/images/Leaves Pattern White Dress.webp"
             ],
-            "thumbnail": "./images/Leaves Pattern White Dress-2.webp",
+            "thumbnail": "/images/Leaves Pattern White Dress-2.webp",
             "rating": 4.7
         },
         {
@@ -395,10 +396,10 @@
                 "Blue"
             ],
             "discount": 20,
-            "thumbnail": "./images/Black Sweatshirt.webp",
+            "thumbnail": "/images/Black Sweatshirt.webp",
             "images": [
-                "./images/Black Sweatshirt-2.webp",
-                "./images/Black Sweatshirt-3.webp"
+                "/images/Black Sweatshirt-2.webp",
+                "/images/Black Sweatshirt-3.webp"
             ],
             "rating": 4.5
         },
@@ -420,10 +421,10 @@
             ],
             "discount": 15,
             "images": [
-                "./images/Black Shorts-2.webp",
-                "./images/Black Shorts-3.webp"
+                "/images/Black Shorts-2.webp",
+                "/images/Black Shorts-3.webp"
             ],
-            "thumbnail": "./images/Black Shorts.webp",
+            "thumbnail": "/images/Black Shorts.webp",
             "rating": 4.5
         },
         {
@@ -444,9 +445,9 @@
             ],
             "discount": 10,
             "images": [
-                "./images/Women's Skinny Jeans-2.webp"
+                "/images/Women's Skinny Jeans-2.webp"
             ],
-            "thumbnail": "./images/Women's Skinny Jeans.webp",
+            "thumbnail": "/images/Women's Skinny Jeans.webp",
             "rating": 4.8
         },
         {
@@ -467,9 +468,9 @@
             ],
             "discount": 10,
             "images": [
-                "./images/Crewneck Sweatshirt-2.webp"
+                "/images/Crewneck Sweatshirt-2.webp"
             ],
-            "thumbnail": "./images/Crewneck Sweatshirt.webp",
+            "thumbnail": "/images/Crewneck Sweatshirt.webp",
             "rating": 4.6
         },
         {
@@ -490,9 +491,9 @@
             ],
             "discount": 15,
             "images": [
-                "./images/Denim Shorts-2.webp"
+                "/images/Denim Shorts-2.webp"
             ],
-            "thumbnail": "./images/Denim Shorts.webp",
+            "thumbnail": "/images/Denim Shorts.webp",
             "rating": 4.7
         },
         {
@@ -513,7 +514,7 @@
             ],
             "discount": 10,
             "images": [],
-            "thumbnail": "./images/Black Plain T-shirt.webp",
+            "thumbnail": "/images/Black Plain T-shirt.webp",
             "rating": 4.5
         },
         {
@@ -534,7 +535,7 @@
             ],
             "discount": 15,
             "images": [],
-            "thumbnail": "./images/Blue Flower Print Crop Top.webp",
+            "thumbnail": "/images/Blue Flower Print Crop Top.webp",
             "rating": 4.3
         },
         {
@@ -555,9 +556,9 @@
             ],
             "discount": 10,
             "images": [
-                "./images/Black Crop Top-2.webp"
+                "/images/Black Crop Top-2.webp"
             ],
-            "thumbnail": "./images/Black Crop Top.webp",
+            "thumbnail": "/images/Black Crop Top.webp",
             "rating": 4.2
         },
         {
@@ -578,10 +579,10 @@
             ],
             "discount": 10,
             "images": [
-                "./images/Black T-Shirt-3.webp",
-                "./images/Black T-Shirt-2.webp"
+                "/images/Black T-Shirt-3.webp",
+                "/images/Black T-Shirt-2.webp"
             ],
-            "thumbnail": "./images/Black T-Shirt.webp",
+            "thumbnail": "/images/Black T-Shirt.webp",
             "rating": 4.5
         },
         {
@@ -602,7 +603,7 @@
             ],
             "discount": 10,
             "images": [],
-            "thumbnail": "./images/Red Heart Shorts.webp",
+            "thumbnail": "/images/Red Heart Shorts.webp",
             "rating": 4.4
         },
         {
@@ -623,9 +624,9 @@
             ],
             "discount": 20,
             "images": [
-                "./images/Blue Jeans-2.webp"
+                "/images/Blue Jeans-2.webp"
             ],
-            "thumbnail": "./images/Blue Jeans.webp",
+            "thumbnail": "/images/Blue Jeans.webp",
             "rating": 4.6
         },
         {
@@ -646,7 +647,7 @@
             ],
             "discount": 15,
             "images": [],
-            "thumbnail": "./images/White Hoodie.webp",
+            "thumbnail": "/images/White Hoodie.webp",
             "rating": 4.7
         },
         {
@@ -667,7 +668,7 @@
             ],
             "discount": 15,
             "images": [],
-            "thumbnail": "./images/Black Hoodie.webp",
+            "thumbnail": "/images/Black Hoodie.webp",
             "rating": 4.8
         }
     ]
