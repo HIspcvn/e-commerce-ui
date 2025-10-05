@@ -1,11 +1,44 @@
-import react, { use, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import react, { use, useEffect, useMemo, useState } from "react";
+import { Link, useLoaderData, useParams } from "react-router-dom";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
+import content from '../../data/content.json'
+import { Rating } from "../../components/Rating/Rating";
+import SizeFilter from "../../components/Filters/SizeFilter";
+import ProductColor from "./ProductColor";
+
+const categories = content.categories
+
 
 const ProductDetail = () => {
     const { product } = useLoaderData()
-    console.log(product)
+    // console.log(product)
     const [image, setImage] = useState(product.thumbnail)
-    console.log(image)
+    // console.log(image)
+    const [BreadcrumbLinks, setBreadcrumbLinks] = useState([{ title: 'Shop', path: '/' }])
+
+    const productCategory = useMemo(() => {
+        return categories.find((category) => category.id === product.category_id)
+    }, [product])
+
+    useEffect(() => {
+        const arrayLinks = [{
+            title: productCategory.name,
+            path: productCategory.path
+        }]
+
+
+        const productType = productCategory.types.find((item) => item.id === product.type_id)
+
+        if (productType) {
+            arrayLinks.push({
+                title: productType.name,
+                path: productType.name
+            })
+        }
+
+        setBreadcrumbLinks(prev => [...BreadcrumbLinks, ...arrayLinks]);
+    }, [productCategory])
+
 
 
     return (
@@ -32,7 +65,22 @@ const ProductDetail = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[60%]">
+            <div className="w-[60%] px-10">
+                <Breadcrumb links={BreadcrumbLinks} />
+                <p className="text-3xl pt-2">{product.title}</p>
+                <Rating rating={product.rating} />
+
+                <div className="flex flex-col">
+                    <div className="flex gap-2">
+                        <p className="text-sm bold">Select Size</p>
+                        <Link className="text-sm text-gray-500 hover:text-black" to={'https://en.wikipedia.org/wiki/Clothing_sizes'} target='_blank'>{'Size Guide ->'}</Link>
+                    </div>
+                </div>
+                <div className="mt-2"><SizeFilter sizes={product.size} hiddenTitle={true} /></div>
+                <div>
+                    <p className="text-lg bold">Colors Available</p>
+                    <ProductColor colors={product.color} />
+                </div>
 
             </div>
         </div>
