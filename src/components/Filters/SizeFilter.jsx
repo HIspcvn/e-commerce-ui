@@ -12,7 +12,7 @@ const SizeFilter = ({ sizes, hiddenTitle }) => {
     }, [appliedSizes])
 
     return (
-        <div className="flex flex-col mb-4">
+        <div className={`flex flex-col ${hiddenTitle ? '' : 'mb-4'}`}>
             {hiddenTitle || <p className="text-[16px] text-black mt-5 mb-5">Size</p>}
             <div className="flex flex-wrap px-2">
                 {sizes.map(item => {
