@@ -38,20 +38,22 @@ const extraSection = [
 const ProductDetail = () => {
     const { product } = useLoaderData()
     // console.log(product)
-    const [image, setImage] = useState(product.thumbnail)
+    const [image, setImage] = useState()
     // console.log(image)
-    const [BreadcrumbLinks, setBreadcrumbLinks] = useState([{ title: 'Shop', path: '/' }])
+    const [BreadcrumbLinks, setBreadcrumbLinks] = useState([])
 
     const productCategory = useMemo(() => {
         return categories.find((category) => category.id === product.category_id)
     }, [product])
 
-    const productListItems = useMemo(() => {
-        return content.products.filter((item) => item.type_id === product.type_id)
+    const similarProduct = useMemo(() => {
+        return content.products.filter((item) => item.type_id === product.type_id && item.id !== product.id)
     }, [product])
 
     useEffect(() => {
-        const arrayLinks = [{
+        setImage(product.thumbnail)
+        setBreadcrumbLinks([])
+        const arrayLinks = [{ title: 'Shop', path: '/' }, {
             title: productCategory.name,
             path: productCategory.path
         }]
@@ -66,8 +68,8 @@ const ProductDetail = () => {
             })
         }
 
-        setBreadcrumbLinks(prev => [...BreadcrumbLinks, ...arrayLinks]);
-    }, [productCategory])
+        setBreadcrumbLinks(arrayLinks);
+    }, [productCategory, product])
 
 
 
@@ -134,17 +136,18 @@ const ProductDetail = () => {
 
 
 
-            <div className="md:w-[50%] w-full p-5">
+            <div className="md:w-[50%] w-full p-1">
                 <SectionHeading title={'Product Description'} />
-                <p className="px-8">{product.description}</p>
+                <p className="px-8 ml-1">{product.description}</p>
             </div>
 
             <SectionHeading title={'Similar Product'} />
-            <div className="  px-10">
-                <div className="pt-4 grid grid-cols-1 lg:grid-cols-3 md:grid-col-2 gap-8 px-2">
-                    {productListItems.map((item, index) => (
+            <div className="flex px-10">
+                <div className="pt-4 grid grid-cols-1 lg:grid-cols-4 md:grid-col-3 gap-8 px-2 pb-10">
+                    {similarProduct.map((item, index) => (
                         <ProductCard key={index} {...item} />
                     ))}
+                    {!similarProduct.length && <p>No Product Found</p>}
                 </div>
             </div>
         </>
