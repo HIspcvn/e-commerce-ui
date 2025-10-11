@@ -304,10 +304,11 @@
             ],
             "discount": 10,
             "images": [
-                "/images/White Graphic Crop Top.webp",
-                "/images/White Graphic Crop Top-2.webp"
+                "/images/White Graphic Crop Top.avif",
+                "/images/White Graphic Crop Top-2.avif",
+                "/images/White Graphic Crop Top-3.avif"
             ],
-            "thumbnail": "/images/White Graphic Crop Top.webp",
+            "thumbnail": "/images/White Graphic Crop Top.avif",
             "rating": 5
         },
         {
@@ -327,8 +328,12 @@
                 "White"
             ],
             "discount": 15,
-            "images": [],
-            "thumbnail": "/images/White T-shirt.webp",
+            "images": [
+                "/images/White T-shirt.avif",
+                "/images/White T-shirt-2.avif",
+                "/images/White T-shirt-3.avif"
+            ],
+            "thumbnail": "/images/White T-shirt.avif",
             "rating": 4.5
         },
         {
@@ -349,10 +354,11 @@
             ],
             "discount": 10,
             "images": [
-                "/images/Purple Hoodie-2.webp",
-                "/images/Purple Hoodie-3.webp"
+                "/images/Purple Hoodie.avif",
+                "/images/Purple Hoodie-2.avif",
+                "/images/Purple Hoodie-3.avif"
             ],
-            "thumbnail": "/images/Purple Hoodie.webp",
+            "thumbnail": "/images/Purple Hoodie.avif",
             "rating": 4.6
         },
         {
@@ -373,9 +379,10 @@
             ],
             "discount": 5,
             "images": [
-                "/images/Leaves Pattern White Dress.webp"
+                "/images/Leaves Pattern White Dress.avif",
+                "/images/Leaves Pattern White Dress-2.avif"
             ],
-            "thumbnail": "/images/Leaves Pattern White Dress-2.webp",
+            "thumbnail": "/images/Leaves Pattern White Dress.avif",
             "rating": 4.7
         },
         {
@@ -396,10 +403,11 @@
                 "Blue"
             ],
             "discount": 20,
-            "thumbnail": "/images/Black Sweatshirt.webp",
+            "thumbnail": "/images/Black Sweatshirt.avif",
             "images": [
-                "/images/Black Sweatshirt-2.webp",
-                "/images/Black Sweatshirt-3.webp"
+                "/images/Black Sweatshirt.avif",
+                "/images/Black Sweatshirt-2.avif",
+                "/images/Black Sweatshirt-3.avif"
             ],
             "rating": 4.5
         },
@@ -421,10 +429,11 @@
             ],
             "discount": 15,
             "images": [
-                "/images/Black Shorts-2.webp",
-                "/images/Black Shorts-3.webp"
+                "/images/Black Shorts.avif",
+                "/images/Black Shorts-2.avif",
+                "/images/Black Shorts-3.avif"
             ],
-            "thumbnail": "/images/Black Shorts.webp",
+            "thumbnail": "/images/Black Shorts.avif",
             "rating": 4.5
         },
         {
@@ -445,9 +454,10 @@
             ],
             "discount": 10,
             "images": [
-                "/images/Women's Skinny Jeans-2.webp"
+                "/images/Women's Skinny Jeans.avif",
+                "/images/Women's Skinny Jeans-2.avif"
             ],
-            "thumbnail": "/images/Women's Skinny Jeans.webp",
+            "thumbnail": "/images/Women's Skinny Jeans.avif",
             "rating": 4.8
         },
         {
@@ -468,9 +478,10 @@
             ],
             "discount": 10,
             "images": [
-                "/images/Crewneck Sweatshirt-2.webp"
+                "/images/Crewneck Sweatshirt.avif",
+                "/images/Crewneck Sweatshirt-2.avif"
             ],
-            "thumbnail": "/images/Crewneck Sweatshirt.webp",
+            "thumbnail": "/images/Crewneck Sweatshirt.avif",
             "rating": 4.6
         },
         {
@@ -491,9 +502,11 @@
             ],
             "discount": 15,
             "images": [
-                "/images/Denim Shorts-2.webp"
+                "/images/Denim Shorts.webp",
+                "/images/Denim Shorts-2.webp",
+                "/images/Denim Shorts-3.webp"
             ],
-            "thumbnail": "/images/Denim Shorts.webp",
+            "thumbnail": "/images/Denim Shorts.avif",
             "rating": 4.7
         },
         {
@@ -513,8 +526,11 @@
                 "Black"
             ],
             "discount": 10,
-            "images": [],
-            "thumbnail": "/images/Black Plain T-shirt.webp",
+            "images": [
+                "/images/Black Plain T-shirt.avif",
+                "/images/Black Plain T-shirt.avif-2"
+            ],
+            "thumbnail": "/images/Black Plain T-shirt.avif",
             "rating": 4.5
         },
         {
@@ -534,8 +550,11 @@
                 "Blue"
             ],
             "discount": 15,
-            "images": [],
-            "thumbnail": "/images/Blue Flower Print Crop Top.webp",
+            "images": [
+                "/images/Blue Flower Print Crop Top.avif",
+                "/images/Blue Flower Print Crop Top-2.avif"
+            ],
+            "thumbnail": "/images/Blue Flower Print Crop Top.avif",
             "rating": 4.3
         },
         {
@@ -556,9 +575,11 @@
             ],
             "discount": 10,
             "images": [
-                "/images/Black Crop Top-2.webp"
+                "/images/Black Crop Top.avif",
+                "/images/Black Crop Top-2.avif",
+                "/images/Black Crop Top-3.avif"
             ],
-            "thumbnail": "/images/Black Crop Top.webp",
+            "thumbnail": "/images/Black Crop Top.avif",
             "rating": 4.2
         },
         {
@@ -580,11 +601,83 @@
             ],
             "discount": 10,
             "images": [
-                "/images/Black T-Shirt-3.webp",
-                "/images/Black T-Shirt-2.webp"
+                "/images/Black T-Shirt.avif",
+                "/images/Black T-Shirt-2.avif"
             ],
-            "thumbnail": "/images/Black T-Shirt.webp",
+            "thumbnail": "/images/Black T-Shirt.avif",
             "rating": 5
+        },
+        {
+            "id": 17,
+            "title": "Black Hoodie",
+            "description": "Comfortable black hoodie for men",
+            "category_id": 1,
+            "type_id": 14,
+            "brand": "Adidas",
+            "price": 59.99,
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Black"
+            ],
+            "discount": 15,
+            "images": [
+                "/images/Black Hoodie.avif",
+                "/images/Black Hoodie-2.avif",
+                "/images/Black Hoodie-3.avif"
+            ],
+            "thumbnail": "/images/Black Hoodie.avif",
+            "rating": 4.8
+        },
+        {
+            "id": 15,
+            "title": "Blue Jeans",
+            "description": "Stylish blue jeans for men",
+            "category_id": 1,
+            "type_id": 1,
+            "brand": "Levis",
+            "price": 49.99,
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "Blue"
+            ],
+            "discount": 20,
+            "images": [
+                "/images/Blue Jeans.avif",
+                "/images/Blue Jeans-2.avif"
+            ],
+            "thumbnail": "/images/Blue Jeans.avif",
+            "rating": 4.6
+        },
+        {
+            "id": 14,
+            "title": "White Hoodie",
+            "description": "Comfortable white hoodie for men",
+            "category_id": 1,
+            "type_id": 14,
+            "brand": "Adidas",
+            "price": 59.99,
+            "size": [
+                "M",
+                "L",
+                "XL"
+            ],
+            "color": [
+                "White"
+            ],
+            "discount": 15,
+            "images": [
+                "/images/White Hoodie.avif"
+            ],
+            "thumbnail": "/images/White Hoodie.avif",
+            "rating": 4.7
         },
         {
             "id": 16,
@@ -606,71 +699,6 @@
             "images": [],
             "thumbnail": "/images/Red Heart Shorts.webp",
             "rating": 4.4
-        },
-        {
-            "id": 15,
-            "title": "Blue Jeans",
-            "description": "Stylish blue jeans for men",
-            "category_id": 1,
-            "type_id": 1,
-            "brand": "Levis",
-            "price": 49.99,
-            "size": [
-                "M",
-                "L",
-                "XL"
-            ],
-            "color": [
-                "Blue"
-            ],
-            "discount": 20,
-            "images": [
-                "/images/Blue Jeans-2.webp"
-            ],
-            "thumbnail": "/images/Blue Jeans.webp",
-            "rating": 4.6
-        },
-        {
-            "id": 14,
-            "title": "White Hoodie",
-            "description": "Comfortable white hoodie for men",
-            "category_id": 1,
-            "type_id": 14,
-            "brand": "Adidas",
-            "price": 59.99,
-            "size": [
-                "M",
-                "L",
-                "XL"
-            ],
-            "color": [
-                "White"
-            ],
-            "discount": 15,
-            "images": [],
-            "thumbnail": "/images/White Hoodie.webp",
-            "rating": 4.7
-        },
-        {
-            "id": 17,
-            "title": "Black Hoodie",
-            "description": "Comfortable black hoodie for men",
-            "category_id": 1,
-            "type_id": 14,
-            "brand": "Adidas",
-            "price": 59.99,
-            "size": [
-                "M",
-                "L",
-                "XL"
-            ],
-            "color": [
-                "Black"
-            ],
-            "discount": 15,
-            "images": [],
-            "thumbnail": "/images/Black Hoodie.webp",
-            "rating": 4.8
         }
     ]
 }
