@@ -28,10 +28,6 @@ const items = [{
 {
     'title': 'Joggers',
     imagePath: Joggers
-},
-{
-    'title': 'Jeans',
-    imagePath: Jeans
 }];
 
 const NewArrivals = () => {

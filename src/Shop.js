@@ -5,10 +5,22 @@ import NewArrivals from './components/sections/NewArrivals';
 import Category from './components/sections/Categories/Category';
 import content from './data/content.json';
 import Footer from './components/Footer/Footer';
+import { useEffect } from 'react';
+import { fetchCategories } from './api/fetchCategories';
 
-function App() {
+const Shop = () => {
+
+  useEffect(() => {
+    fetchCategories().then(res => {
+      console.log("Categories ", res)
+    }).catch(err => {
+      console.log(err)
+    })
+  })
+
+
   return (
-    <div className="App">
+    <div className="Shop">
       {/*<Navigation />*/}
       <HeroSection />
       <NewArrivals />
@@ -18,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default Shop;

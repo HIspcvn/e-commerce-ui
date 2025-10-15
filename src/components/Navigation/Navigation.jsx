@@ -13,7 +13,7 @@ const Navigation = () => {
                 {/* Logo icon */}
                 {/* <img src={logo} alt="Logo" className="h-10 w-10 object-contain" /> */}
                 {/* Logo */}
-                <a className="text-3xl text-black font-bold gap-8 ml-2" href="/">HI&WOLF</a>
+                <a className="text-3xl text-black font-bold gap-8 ml-2" href="/">VANS</a>
 
             </div>
             <div className="flex flex-wrap items-center gap-10">
